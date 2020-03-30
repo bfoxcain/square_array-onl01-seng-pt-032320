@@ -1,7 +1,7 @@
-def square_array(numbers)
-  new_numbers = []
-  numbers.each {|a| new_numbers.push(a*a)}
-    return new_numbers
+def square_array(array)
+  new_array = []
+  array.each {|a| new_array.push(a*a)}
+    return new_array
   end
   # your code here
 end
